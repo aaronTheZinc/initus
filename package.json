@@ -1,0 +1,23 @@
+{
+  "name": "initus",
+  "version": "0.0.1",
+  "description": "Autosave input react lib",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "release": "pnpm run build && changeset publish",
+    "lint": "tsc"
+  },
+  "files": ["dist"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@changesets/cli": "^2.26.1",
+    "@types/react": "^18.0.37",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
