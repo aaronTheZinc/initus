@@ -57,7 +57,6 @@ export default function useInitus<T>(
       });
     };
   }, []);
-
   return {
     link,
     read,
